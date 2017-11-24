@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'MuseoSans-500';
+    src: url("exljbris - MuseoSans-500.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoSans-500';
+    src: url("exljbris - MuseoSans-500Italic.otf") format("opentype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+body {
+    background-color: black;
+}
+
+#everything {
+    color: white;
+    z-index: 2;
+}
+
+p {
+    margin: 21.6px 80px 21.6px 80px;
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+q {
+    font-size: 29px;
+}
+
+#mars {
+    background-image: url(../images/mars.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 1093px;
+    height: 353px;
+}
+
+h1 {
+    font-family: MuseoSans-500;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20%;
+}
+
+h2 {
+    font-family: MuseoSans-500;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 20px 0 20px 40px;
+}
+
+blockquote {
+    display: block;
+    width: 20%;
+    margin: 27.2px 36px 27.2px 40px;
+    padding: 48px 0 48px 0;
+    border-top: solid white 8px;
+    border-bottom: solid white 8px;
+    float: left;
+
+}
+
+figure {
+    display: block;
+    width: 20%;
+    margin: 16px 40px 16px 36px;
+    float: right;
+    border-bottom: solid white 8px;
+}
+figcaption {
+    font-size: 24px;
+}
+
+#poll {
+    background-color: gray;
+    font-size: 20px;
+    color: white;
+    margin-left: 64px;
+    margin-right: 64px;
+}

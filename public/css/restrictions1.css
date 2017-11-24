@@ -8,21 +8,12 @@ body {
     font-size: 25px;
     text-wrap: normal;
 }
-
 #picture img {
-    justify-content: center;
-    height: 8%;
-    width: 8%;
-    margin-left: -20%;
-    margin-top: -20%;
-}
-
-#picture2 img {
-    justify-content: center;
-    height: 8%;
-    width: 8%;
-    margin-left: -20%;
-    margin-top: -20%;
+    height: 18%;
+    width: 15%;
+    position: absolute;
+    margin-left: 320px;
+    margin-top: -20px;
 }
 
 #title {
@@ -34,8 +25,39 @@ body {
 #body {
     background-color: white;
     padding-top: 100px;
-    padding-bottom: 114px;
+    padding-bottom: 130px;
     padding-left: 30px;
     padding-right: 30px;
     background: linear-gradient(to bottom left, dimgray , black , dimgray);
+}
+
+@media screen and (max-device-width: 770px) and (min-device-width: 700px) {
+    body {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+
+    .words {
+        font-size: 30px;
+    }
+
+    #picture img {
+        height: 18%;
+        width: 24%;
+        margin-left: 260px;
+        margin-top: 0px;
+    }
+
+    #title {
+        margin-left: 160px;
+        font-size: 30px;
+    }
+
+    #body {
+        padding-top: 0px;
+        padding-bottom: 200px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
