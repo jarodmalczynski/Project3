@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'MuseoSans-500';
-    src: url("exljbris - MuseoSans-500.otf") format("opentype");
-    font-weight: 400;
+    src: url("../fonts/museosans.otf") format("OpenType");
+    font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MuseoSans-500';
-    src: url("exljbris - MuseoSans-500Italic.otf") format("opentype");
-    font-weight: 400;
+    src: url("../fonts/museosansitalic.otf") format("OpenType");
+    font-weight: 300;
     font-style: italic;
 }
 
@@ -39,7 +39,7 @@ q {
     color: white;
     width: 1280px;
     height: 540px;
-    margin-left: -1%;
+    margin-left: 3%;
     margin-top: -7%;
 }
 
@@ -144,8 +144,8 @@ figcaption {
 /*  iPad  */
 @media screen and (max-width: 800px) and (min-width: 760px) {
     #mars {
-        width: 770px;
-        margin-left: 1%;
+        width: 750px;
+        margin-left: 2%;
     }
 
     h2 {
