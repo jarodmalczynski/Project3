@@ -61,3 +61,35 @@ body {
         padding-right: 0px;
     }
 }
+
+@media screen and (max-device-width: 370px) and (min-device-width: 350px) {
+    body {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+
+    .words {
+        font-size: 18px;
+    }
+
+    #picture img {
+        height: 14%;
+        width: 20%;
+        margin-left: 120px;
+        margin-top: -20px;
+    }
+
+    #title {
+        margin-left: 65px;
+        margin-right: 0px;
+        font-size: 20px;
+    }
+
+    #body {
+        padding-top: 0px;
+        padding-bottom: 80px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
