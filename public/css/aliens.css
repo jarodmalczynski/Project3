@@ -94,7 +94,7 @@ figcaption {
     margin-left: 64px;
     margin-right: 64px;
 }
-
+/*  Galaxy S5  */
 @media screen and (max-width: 400px) and (min-width: 360px) {
     #mars {
         width: 360px;
@@ -141,7 +141,7 @@ figcaption {
         font-size: 14px;
     }
 }
-
+/*  iPad  */
 @media screen and (max-width: 800px) and (min-width: 760px) {
     #mars {
         width: 770px;
