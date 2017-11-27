@@ -1,33 +1,84 @@
+#all {
+    margin-left: -4%;
+    margin-top: 8%;
+}
+
 #title {
     justify-content: center;
     position: relative;
-    margin-left: 40%;
+    margin-left: 38%;
     font-size: 30px;
+    margin-top: -2%;
 }
 
 #picture {
     position: absolute;
-    margin-left: 75%;
-    margin-top: -6%;
+    margin-left: 77%;
+    margin-top: 3%;
 }
 
 #words1 {
     position: absolute;
-    margin-left: 30%;
+    margin-left: 28%;
     font-size: 20px;
-    margin-top: -4%;
 }
 
 #words2 {
     position: absolute;
-    margin-left: 52%;
+    margin-left: 50%;
     font-size: 20px;
-    margin-top: 4%;
+    margin-top: 12%;
 }
 
 #wine {
     position: absolute;
     flex-wrap: wrap;
-    margin-top: 140px;
-    margin-left: 30%;
+    margin-top: 16%;
+    margin-left: 26%;
+}
+
+#wine img {
+    height: 150%;
+    width: 110%;
+}
+
+@media screen and (max-device-width: 370px) and (min-device-width: 350px) {
+    #all {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    #title {
+        font-size: 20px;
+        margin-left: 0;
+    }
+
+    #words1 {
+        font-size: 10px;
+        margin-left: 0;
+    }
+
+    #words2 {
+        font-size: 10px;
+        margin-left: 40px;
+    }
+
+    #wine {
+        margin-left: 0;
+        margin-top: 50%;
+    }
+
+    #wine img {
+        height: 30%;
+        width: 30%;
+    }
+
+    #picture {
+        margin-left: 80%;
+    }
+
+    #picture img {
+        height: 30%;
+        width: 30%;
+    }
 }
